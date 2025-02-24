@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD TANU</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    
+
+    <div id="countdown-container">
+        <div id="countdown-box">
+            <h1 id="countdown"></h1>
+        </div>
+    </div>
+    
+
+
+<div id="birthday-content" style="display: none;">
+    
+    <div class="hero">
+        <h1>HAPPY BIRTHDAY TANISHA</h1>
+    </div>
+
+    <div class="video-container">
+        
+        <video class="video">
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="upload-box" id="uploadBox">
+            <p class="upload-text">Upload Your Video Here</p>
+            <label for="uploadVideo" class="upload-btn">Upload Video</label>
+            <input type="file" id="uploadVideo" accept="video/*" hidden>
+        </div>
+
+        <video class="video" id="uploadedVideo" style="display: none;">
+            <source id="uploadedVideoSource" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+
+    <button class="download-btn" onclick="downloadPDF()">20-Year-Old</button>
+
+</div>
+
+
+</body>
+</html>
